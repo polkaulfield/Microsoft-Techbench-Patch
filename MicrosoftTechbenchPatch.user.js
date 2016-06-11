@@ -3,14 +3,13 @@
 // @namespace     https://github.com/shakku/Microsoft-Techbench-Patch
 // @description   Patches the Microsoft TechBench webpage to allow you to download all the Windows ISOs.
 // @include       https://www.microsoft.com/*/software-download/techbench
+// @grant none
 // ==/UserScript==
 
 // Exploit found by:
 // @WZorNET
 // @nummerok
 // @rgadguard
-
-
 
 document["getElementById"]("product-edition")["innerHTML"]=
 "<option value='' selected='selected'>Select edition</option>\
